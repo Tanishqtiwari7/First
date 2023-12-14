@@ -9,8 +9,9 @@ int main()
   double z;
   int t;
   int k = 1;
-  char a = 'y';
-  char g = 'Y';
+  char a ;
+  char g ;
+  std::string b;
 
   do
   {
@@ -23,11 +24,10 @@ int main()
     std::cout << "For adding your crazy dares enter : 1\n";
     std::cout << "For having default numbers enter : 2\n";
     std::cout << ":>-";
-    std::cin >> z;
+    std::cin >> z,b;
 
     // for(t=0;(t<k)&&((t==q)||(t>l));t++)
     for (t = 0; t < k; t++)
-    {
       if (z == 1 || z == 2)
       {
         if (z == 1)
@@ -61,15 +61,17 @@ int main()
       else
       {
 
+    do
+    {
         std::cout << "Enter the correct no.:-";
-        std::cin >> z;
+        std::cin >> z,b;
+    }while((z!=1)&&(z!=2));
         k++;
       }
-    }
     std::cout << "\n\nwant to play this game ? (Y/N)\n";
     std::cin >> a;
 
     std::cout << "\n\n\n\t*********************************************************************************\n\n\n";
 
-  } while ((a = 'y') || (g = 'Y'));
+  } while ((a == 'y') || (g == 'Y'));
 }
