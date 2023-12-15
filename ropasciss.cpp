@@ -23,6 +23,7 @@ char comp();
             std::cout << "its a tie!\n";
         }
 
+
         else if ((input == 'r') && (com == 's'))
         {
             std::cout << "you win!\n";
@@ -36,15 +37,17 @@ char comp();
             std::cout << "you win!\n";
         }
 
+
+
+        else if ((input == 'p') && (com == 's'))
+        {
+            std::cout << "you loose!\n";
+        }
         else if ((input == 's') && (com == 'r'))
         {
             std::cout << "you loose!\n";
         }
         else if ((input == 'r') && (com == 'p'))
-        {
-            std::cout << "you loose!\n";
-        }
-        else if ((input == 'p') && (com == 'r'))
         {
             std::cout << "you loose!\n";
         }
