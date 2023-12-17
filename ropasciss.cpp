@@ -68,6 +68,7 @@ char userin()
     do
     {
         std::cout << "choose any of the actions:\n";
+        std::cout<< "choose the letter\n";
         std::cout << "1. 'r' for rock\n";
         std::cout << "2. 'p' for paper\n";
         std::cout << "3. 's' for scissors\n";

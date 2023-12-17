@@ -11,7 +11,7 @@ int main()
   int k = 1;
   char a ;
   char g ;
-  std::string b;
+  
 
   do
   {
@@ -24,7 +24,7 @@ int main()
     std::cout << "For adding your crazy dares enter : 1\n";
     std::cout << "For having default numbers enter : 2\n";
     std::cout << ":>-";
-    std::cin >> z,b;
+    std::cin >> z;
 
     // for(t=0;(t<k)&&((t==q)||(t>l));t++)
     for (t = 0; t < k; t++)
@@ -64,7 +64,7 @@ int main()
     do
     {
         std::cout << "Enter the correct no.:-";
-        std::cin >> z,b;
+        std::cin >> z;
     }while((z!=1)&&(z!=2));
         k++;
       }
